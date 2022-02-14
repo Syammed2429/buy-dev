@@ -40,7 +40,15 @@ const Buy: FC = () => {
                 Polygon
               </Link>
             </Button>
-            <Button>Arbitrum</Button>
+
+            <Button>
+              <Link
+                href=" https://app.uniswap.org/#/swap?outputCurrency=0x91F5dC90979b058eBA3be6B7B7e523df7e84e137"
+                isExternal
+              >
+                Arbitrum
+              </Link>
+            </Button>
             <Button>Ethereum</Button>
           </ModalBody>
 
