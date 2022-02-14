@@ -43,13 +43,21 @@ const Buy: FC = () => {
 
             <Button>
               <Link
-                href=" https://app.uniswap.org/#/swap?outputCurrency=0x91F5dC90979b058eBA3be6B7B7e523df7e84e137"
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x91F5dC90979b058eBA3be6B7B7e523df7e84e137"
                 isExternal
               >
                 Arbitrum
               </Link>
             </Button>
-            <Button>Ethereum</Button>
+
+            <Button>
+              <Link
+                href="https://app.uniswap.org/#/swap?outputCurrency=0x5caf454ba92e6f2c929df14667ee360ed9fd5b26&use=V2"
+                isExternal
+              >
+                Ethereum
+              </Link>
+            </Button>
           </ModalBody>
 
           <ModalFooter>
