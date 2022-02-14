@@ -1,5 +1,6 @@
 import {
   Button,
+  Link,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -31,7 +32,16 @@ const Buy: FC = () => {
           <ModalHeader>Buy DEXs from multiple networks.</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
-            <Button>Here</Button>
+            <Button>
+              <Link
+                href="https://quickswap.exchange/#/swap?outputCurrency=0xA5577D1cec2583058A6Bd6d5DEAC44797c205701"
+                isExternal
+              >
+                Polygon
+              </Link>
+            </Button>
+            <Button>Arbitrum</Button>
+            <Button>Ethereum</Button>
           </ModalBody>
 
           <ModalFooter>
